@@ -1,6 +1,7 @@
-/** Common config for message.ly */
 
-// read .env files and make environmental variables
+
+// Common config for Messagely; read .env files and make environmental variables
+// It's job is to be a centralized place for constants needed in different places in the app. Other places should require() in these values
 
 require("dotenv").config();
 
